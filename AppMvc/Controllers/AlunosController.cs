@@ -41,7 +41,7 @@ namespace AppMvc.Controllers
         {
             return View();
         }
-
+        //teste comit
         [HttpPost]
         [Route("novo-aluno")]
         [ValidateAntiForgeryToken]
